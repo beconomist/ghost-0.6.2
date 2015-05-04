@@ -1,0 +1,16 @@
+<div class="wrapper excerpts">
+    <div class="container">
+        {{#foreach posts}}
+            <div class="excerpt">
+                <a href="{{url}}">
+                    <h1>{{title}}</h1>
+                </a>
+                <p>{{excerpt words="25"}}&hellip;
+
+                  <span class = "read-more "> <a href="{{url}}">繼續閱讀</a>
+
+                </p>
+            </div>
+        {{/foreach}}
+    </div>
+</div>
