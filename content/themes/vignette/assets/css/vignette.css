@@ -186,6 +186,15 @@ p {
 	margin-bottom: 5px;
 }
 
+.author-bao h1.title {
+	color: #fff;
+}
+
+.author-bao h1.title + h2.caption {
+	font-size: 16px;
+	font-style: normal;
+}
+
 .share {
 	width: 180px;
 	float: left;

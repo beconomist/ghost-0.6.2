@@ -1,6 +1,6 @@
 {{!< default}}
 
-<section class="wrapper">
+<section class="wrapper" {{#if author.cover}}style="background-image: url({{author.cover}})"{{/if}}>
     <div class="container">
         <header>
             {{#author}}
